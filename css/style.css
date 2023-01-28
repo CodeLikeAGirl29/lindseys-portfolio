@@ -21,7 +21,7 @@
     7.2. social icons team
   8. about
   9. services
-  10. works
+  10. projects
   11. navigation
   12. introduction
   13. front page
@@ -64,37 +64,37 @@
 */
 
 /* 1. BACKGROUNDS */
-/* 1.1. works IMG BACKGROUND */
-.item-works-01 {
-	background-image: url(../img/works/1.png);
+/* 1.1. projects IMG BACKGROUND */
+.item-projects-01 {
+	background-image: url(../img/projects/1.png);
 }
 
-.item-works-02 {
-	background-image: url(../img/works/2.png);
+.item-projects-02 {
+	background-image: url(../img/projects/2.png);
 }
 
-.item-works-03 {
-	background-image: url(../img/works/3.png);
+.item-projects-03 {
+	background-image: url(../img/projects/3.png);
 }
 
-.item-works-04 {
-	background-image: url(../img/works/4.png);
+.item-projects-04 {
+	background-image: url(../img/projects/4.png);
 }
 
-.item-works-05 {
-	background-image: url(../img/works/5.png);
+.item-projects-05 {
+	background-image: url(../img/projects/5.png);
 }
 
-.item-works-06 {
-	background-image: url(../img/works/6.png);
+.item-projects-06 {
+	background-image: url(../img/projects/6.png);
 }
 
-.item-works-07 {
-	background-image: url(../img/works/7.png);
+.item-projects-07 {
+	background-image: url(../img/projects/7.png);
 }
 
-.item-works-08 {
-	background-image: url(../img/works/8.png);
+.item-projects-08 {
+	background-image: url(../img/projects/8.png);
 }
 
 /* 1.2. news IMG BACKGROUND */
@@ -789,6 +789,7 @@ ul.social-icons-home a:hover {
 .timeline {
 	position: relative;
 	margin: 10px 0 0 0;
+	overflow: hidden;
 }
 
 h3.cd-timeline-name {
@@ -802,7 +803,7 @@ h3.cd-timeline-name {
 	letter-spacing: -0.04em;
 	color: #5f5f5f;
 	line-height: 1.25;
-	margin: -6px 0 -4px 0;
+	margin: -6px 0 -4px;
 }
 
 h4.cd-timeline-date {
@@ -843,6 +844,8 @@ h4.cd-timeline-date {
 	position: relative;
 	padding: 0;
 	list-style: none;
+	max-width: 1200px;
+  margin: 0 auto;
 }
 
 .timeline:before {
@@ -853,6 +856,7 @@ h4.cd-timeline-date {
 	left: 40px;
 	width: 2px;
 	margin-left: -1.5px;
+	margin-right: 20px;
 	background-color: #f5f5f5;
 }
 
@@ -860,6 +864,7 @@ h4.cd-timeline-date {
 	position: relative;
 	margin-bottom: 50px;
 	min-height: 50px;
+	margin-right: 20px;
 }
 
 .timeline > li:before,
@@ -893,7 +898,7 @@ h4.cd-timeline-date {
 
 .timeline > li .timeline-panel:after {
 	right: auto;
-	left: -14px;
+	left: 14px;
 	border-right-width: 14px;
 	border-left-width: 0;
 }
@@ -906,6 +911,7 @@ h4.cd-timeline-date {
 	margin-left: 0;
 	border: 5px solid #fff;
 	text-align: center;
+	align-items: center;
 	color: #fff;
 	background-color: #fff;
 	-webkit-border-radius: 100%;
@@ -1166,7 +1172,7 @@ h4.cd-timeline-date {
 	}
 }
 
-/* 10. works */
+/* 10. projects */
 .circle-wrapper-full {
 	position: relative;
 	display: block;
@@ -1618,7 +1624,7 @@ nav.navigation-menu a {
 	text-transform: uppercase;
 	letter-spacing: -0.04em;
 	color: #5f5f5f;
-	margin: -4px 0 -3px 0;
+	margin: -4px 0 -3px;
 }
 
 @media only screen and (max-width: 880px) {
@@ -1630,7 +1636,7 @@ nav.navigation-menu a {
 @media only screen and (max-width: 768px) {
 	.introduction h3 {
 		font-size: 15px;
-		margin: -4px 0 -2px 0;
+		margin: -4px 0 -2px;
 	}
 }
 
@@ -2390,8 +2396,8 @@ a:hover.link-effect::after {
 	height: auto;
 	left: 0;
 	right: 0;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
 	text-align: center !important;
 	margin: -4px auto -6px -25px;
 }
@@ -2404,7 +2410,7 @@ a:hover.link-effect::after {
 
 .section-subheading-wrapper-all {
 	position: relative;
-	margin: -33px 0 -4px 0;
+	margin: -33px 0 -4px;
 }
 
 h2.section-subheading {
@@ -2426,7 +2432,7 @@ h2.section-subheading {
 }
 
 .section-subheading {
-	margin: 0 auto -6px auto;
+	margin: 0 auto -6px;
 }
 
 h2.section-subheading::after {
@@ -2476,9 +2482,9 @@ form {
 	border-left: none;
 	border-right: none;
 	border-top: none;
-	padding: 5px 5px;
+	padding: 5px;
 	background: none;
-	margin: 10px 0 10px 0;
+	margin: 10px 0;
 	font-family: "Raleway", sans-serif;
 	font-size: 13px;
 	letter-spacing: 0.05em;
@@ -2502,7 +2508,7 @@ textarea {
 	border-left: none;
 	border-right: none;
 	border-top: none;
-	padding: 5px 5px;
+	padding: 5px;
 	background: none;
 	margin: 5px;
 	font-family: "Raleway", sans-serif;
@@ -2521,7 +2527,7 @@ textarea {
 }
 
 #form textarea {
-	margin: 10px 0 10px 0;
+	margin: 10px 0;
 	-webkit-transition: all 0.5s linear;
 	-moz-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;
@@ -2707,24 +2713,24 @@ textarea:focus:-moz-placeholder {
 .the-button-wrapper.the-button-wrapper-more {
 	text-align: center;
 	max-width: 205px !important;
-	margin: -7px auto 4px auto;
+	margin: -7px auto 4px;
 }
 
 @media all and (min-width: 1920px) {
 	.the-button-wrapper.the-button-wrapper-more {
-		margin: -5px auto 5px auto;
+		margin: -5px auto 5px;
 	}
 }
 
 @media only screen and (max-width: 995px) {
 	.the-button-wrapper.the-button-wrapper-more {
-		margin: -3px auto 8px auto;
+		margin: -3px auto 8px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
 	.the-button-wrapper.the-button-wrapper-more {
-		margin: -3px auto 1px auto;
+		margin: -3px auto 1px;
 	}
 }
 
@@ -2738,7 +2744,7 @@ textarea:focus:-moz-placeholder {
 	letter-spacing: 0.1em;
 	color: #5f5f5f;
 	background: none;
-	padding: 10px 40px 0 40px;
+	padding: 10px 40px 0;
 	top: 13px;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -2752,7 +2758,7 @@ textarea:focus:-moz-placeholder {
 		width: 205px;
 		font-size: 11px;
 		letter-spacing: 0.25em;
-		padding: 11px 40px 0 40px;
+		padding: 11px 40px 0;
 	}
 }
 
@@ -2859,7 +2865,7 @@ textarea:focus:-moz-placeholder {
 .the-button-submit {
 	width: 175px;
 	top: -19px;
-	margin: 0 0 12px 0;
+	margin: 0 0 12px;
 	border: none;
 }
 
@@ -2907,7 +2913,7 @@ button.button-all {
 
 @media only screen and (max-width: 768px) {
 	button.button-all {
-		margin: -7px 0 0 0;
+		margin:  -7px 0 0;
 		position: relative;
 	}
 }
@@ -3155,7 +3161,7 @@ button.button-all {
 	text-transform: uppercase;
 	letter-spacing: -0.04em;
 	color: #fff;
-	margin: 0 0 -8px 0;
+	margin:  0 0 -8px;
 	-webkit-pointer-events: none;
 	-moz-pointer-events: none;
 	pointer-events: none;
@@ -3189,7 +3195,7 @@ button.button-all {
 	letter-spacing: -0.04em;
 	color: #fff;
 	line-height: 1.25;
-	margin: -5px 0 3px 0;
+	margin: -5px 0 3px;
 	-webkit-pointer-events: none;
 	-moz-pointer-events: none;
 	pointer-events: none;
@@ -3267,12 +3273,12 @@ button.button-all {
 /* 29. section page IMG slider */
 .about-img-container,
 .services-img-container,
-.works-img-container,
+.projects-img-container,
 .news-img-container,
 .contact-img-container,
 .about-img-container.mobile,
 .services-img-container.mobile,
-.works-img-container.mobile,
+.projects-img-container.mobile,
 .news-img-container.mobile,
 .contact-img-container.mobile {
 	position: absolute !important;
@@ -3294,7 +3300,7 @@ button.button-all {
 @media only screen and (max-width: 880px) {
 	.about-img-container.mobile,
 	.services-img-container.mobile,
-	.works-img-container.mobile,
+	.projects-img-container.mobile,
 	.news-img-container.mobile,
 	.contact-img-container.mobile {
 		display: none;
@@ -3304,12 +3310,12 @@ button.button-all {
 @media only screen and (max-width: 880px) {
 	.about-img-container,
 	.services-img-container,
-	.works-img-container,
+	.projects-img-container,
 	.news-img-container,
 	.contact-img-container,
 	.about-img-container.img-poster,
 	.services-img-container.img-poster,
-	.works-img-container.img-poster,
+	.projects-img-container.img-poster,
 	.news-img-container.img-poster,
 	.contact-img-container.img-poster {
 		width: 100%;
@@ -3318,7 +3324,7 @@ button.button-all {
 
 .about-img-container.img-poster,
 .services-img-container.img-poster,
-.works-img-container.img-poster,
+.projects-img-container.img-poster,
 .news-img-container.img-poster,
 .contact-img-container.img-poster {
 	width: 100vw;
@@ -3326,7 +3332,7 @@ button.button-all {
 
 .about-img-container .slide-img,
 .services-img-container .slide-img,
-.works-img-container .slide-img,
+.projects-img-container .slide-img,
 .news-img-container .slide-img,
 .contact-img-container .slide-img {
 	position: absolute;
@@ -3340,7 +3346,7 @@ button.button-all {
 
 .page-loaded .about-img-container .slide-img,
 .page-loaded .services-img-container .slide-img,
-.page-loaded .works-img-container .slide-img,
+.page-loaded .projects-img-container .slide-img,
 .page-loaded .news-img-container .slide-img,
 .page-loaded .contact-img-container .slide-img {
 	left: -30vw;
@@ -3349,7 +3355,7 @@ button.button-all {
 @media only screen and (max-width: 880px) {
 	.page-loaded .about-img-container .slide-img,
 	.page-loaded .services-img-container .slide-img,
-	.page-loaded .works-img-container .slide-img,
+	.page-loaded .projects-img-container .slide-img,
 	.page-loaded .news-img-container .slide-img,
 	.page-loaded .contact-img-container .slide-img {
 		left: 0;
@@ -3358,7 +3364,7 @@ button.button-all {
 
 .page-loaded .about-img-container.img-poster .slide-img,
 .page-loaded .services-img-container.img-poster .slide-img,
-.page-loaded .works-img-container.img-poster .slide-img,
+.page-loaded .projects-img-container.img-poster .slide-img,
 .page-loaded .news-img-container.img-poster .slide-img,
 .page-loaded .contact-img-container.img-poster .slide-img {
 	left: 0;
@@ -3605,7 +3611,7 @@ h1.typed-effect {
 p.text {
 	position: relative;
 	text-align: left;
-	margin: -4px 0 1px 0;
+	margin: -4px 0 1px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -3689,7 +3695,7 @@ p.text {
 	text-transform: none;
 	letter-spacing: -0.02em;
 	color: #5f5f5f;
-	margin: -12px 0 0 0;
+	margin: -12px 0 0;
 	top: -4px;
 	width: 100%;
 	line-height: 1;
@@ -3714,7 +3720,7 @@ p.text {
 
 @media only screen and (max-width: 1200px) {
 	.blog-quote p {
-		margin: -12px 0 0 0;
+		margin: -12px 0 0;
 		top: -4px;
 	}
 }
@@ -3722,7 +3728,7 @@ p.text {
 @media only screen and (max-width: 995px) {
 	.blog-quote p {
 		font-size: 40px;
-		margin: -10px 0 0 0;
+		margin: -10px 0 0;
 		top: -2px;
 	}
 }
@@ -3730,7 +3736,7 @@ p.text {
 @media only screen and (max-width: 768px) {
 	.blog-quote p {
 		font-size: 30px;
-		margin: -5px 0 0 0;
+		margin: -5px 0 0;
 	}
 }
 
@@ -3781,7 +3787,7 @@ p.text {
 @media only screen and (max-width: 995px) {
 	.news-info-title {
 		font-size: 30px;
-		margin: -6px 0 -4px 0;
+		margin: -6px 0 -4px;
 	}
 }
 
@@ -3808,13 +3814,13 @@ p.text {
 	text-align: left;
 	letter-spacing: -0.04em;
 	color: #5f5f5f;
-	margin: -4px 0 -3px 0;
+	margin: -4px 0 -3px;
 }
 
 @media only screen and (max-width: 768px) {
 	.news-info-category {
 		font-size: 15px;
-		margin: -4px 0 -2px 0;
+		margin: -4px 0 -2px;
 	}
 }
 
@@ -3875,33 +3881,33 @@ h1.section-header,
 
 /* 39. text elements position */
 h1.section-header {
-	margin: -10px 0 2px 0;
+	margin: -10px 0 2px;
 }
 
 @media all and (min-width: 1920px) {
 	h1.section-header {
 		font-size: 60px;
-		margin: -16px 0 2px 0;
+		margin: -16px 0 2px;
 	}
 }
 
 @media only screen and (max-width: 1200px) {
 	h1.section-header {
-		margin: -12px 0 3px 0;
+		margin: -12px 0 3px;
 	}
 }
 
 @media only screen and (max-width: 995px) {
 	h1.section-header {
 		font-size: 40px;
-		margin: -9px 0 1px 0;
+		margin: -9px 0 1px;
 	}
 }
 
 @media only screen and (max-width: 768px) {
 	h1.section-header {
 		font-size: 30px;
-		margin: -5px 0 1px 0;
+		margin: -5px 0 1px;
 	}
 }
 
@@ -4090,7 +4096,7 @@ h6.contact {
 }
 
 .owl-nav-custom-team,
-.owl-nav-custom-works,
+.owl-nav-custom-projects,
 .owl-nav-custom-news,
 .owl-nav-custom-news-all {
 	position: relative;
@@ -4099,8 +4105,8 @@ h6.contact {
 	height: 50px;
 	left: 2px;
 	right: 0;
-	margin-left: auto;
-	margin-right: auto;
+	/* margin-left: auto;
+	margin-right: auto; */
 	margin: 2px auto;
 	text-align: center;
 	overflow: hidden;
@@ -4158,8 +4164,8 @@ h6.contact {
 
 .owl-prev.disabled,
 .owl-next.disabled,
-#works-section-carousel.owl-prev.disabled,
-#works-section-carousel.owl-next.disabled,
+#projects-section-carousel.owl-prev.disabled,
+#projects-section-carousel.owl-next.disabled,
 #news-section-carousel.owl-prev.disabled,
 #news-section-carousel.owl-next.disabled {
 	content: "";
@@ -4182,8 +4188,8 @@ h6.contact {
 	cursor: default !important;
 }
 
-#owl-carousel-works {
-	margin: -25px 0 0 0;
+#owl-carousel-projects {
+	margin: -25px 0 0;
 }
 
 /* 43. Lity CUSTOM */
@@ -5168,16 +5174,21 @@ h6.contact {
 	}
 }
 
-.team-item-divider {
-	position: relative;
-	display: block;
-	width: 100%;
-	height: auto;
-	left: 0;
-	right: 0;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 0;
-	overflow: hidden;
-	z-index: 2;
+.team-item {
+  align-items: center;
+}
+
+.team-item-divider,
+.image-projects {
+position: relative;
+display: block;
+width: 100%;
+height: auto;
+left: 0;
+right: 0;
+margin-left: auto; 
+margin-right: auto;
+padding: 0;
+overflow: hidden;
+z-index: 2;
 }

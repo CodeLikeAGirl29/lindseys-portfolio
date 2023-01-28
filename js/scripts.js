@@ -137,7 +137,7 @@ $(function () {
 			}
 		}
 	});
-	$("#owl-carousel-works").owlCarousel({
+	$("#owl-carousel-projects").owlCarousel({
 		loop: false,
 		center: false,
 		autoplay: false,
@@ -147,7 +147,7 @@ $(function () {
 		nav: false,
 		nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
-		navContainer: '.owl-nav-custom-works',
+		navContainer: '.owl-nav-custom-projects',
 		responsive: {
 			0: {
 				items: 1,
