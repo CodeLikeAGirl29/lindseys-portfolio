@@ -4,7 +4,7 @@ This is my personal portfolio. Made by Lindsey. 🎉
 
 ## Screenshots
 
-![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1674804566/projects/screenshot-profile_smv2xv.png)
+![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1675111262/projects/lindseykdev_riyc98.png)
 
 ## Tech Stack
 
@@ -20,8 +20,41 @@ This is my personal portfolio. Made by Lindsey. 🎉
 
 ![gh-pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)
 
+---
 
-## Documentation
+## Doc Tree
 
-[Documentation](https://linktodocumentation)
+```
+└── my--portfolio/
+    ├── contact.php
+    ├── index.html
+    ├── README.md
+    ├── css/
+    │   ├── font/
+    │   ├── plugins.css
+    │   └── style.css
+    ├── img/
+    │   ├── background/
+    │   ├── news/
+    │   ├── projects/
+    │   ├── team/
+    │   ├── timeline/
+    │   ├── favicon.png
+    │   ├── logo-dark.png
+    │   ├── logo-initials.png
+    │   ├── logo-light.png
+    │   └── logo.png
+    ├── js/
+    │   ├── plugins.js
+    │   └── scripts.js
+    ├── fonts/
+    │   ├── ionicons.eot
+    │   ├── ionicons.svg
+    │   ├── ionicons.ttf
+    │   └── ionicons.woff
+    └── photoswipe/default-skin/
+```
 
+## Style Guide
+
+![style-guide-img](https://res.cloudinary.com/codelikeagirl29/image/upload/v1675112667/dev-branding/mood-board_da5sh3.png)
