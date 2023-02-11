@@ -950,9 +950,9 @@ h4.cd-timeline-date {
 	text-align: center;
 	color: #fff;
 	background-color: #fff;
-	-webkit-border-radius: 100%;
-	-moz-border-radius: 100%;
-	border-radius: 100%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius:50%;
 	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
 	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
@@ -1156,10 +1156,14 @@ h4.cd-timeline-date {
 
 .panel-group .panel .panel-heading h4 a:not(.collapsed) i:before {
 	content: "\f209";
-	font-family: "Ionicons";
+	font-family: "Font Awesome";
 }
 
 .ion {
+	font-size: 13px;
+}
+
+.fa {
 	font-size: 13px;
 }
 
@@ -4107,6 +4111,27 @@ h6.contact {
 	-ms-transition: all 0.5s linear;
 	-o-transition: all 0.5s linear;
 	transition: all 0.5s linear;
+}
+
+.map iframe {
+	width: 100%;
+	border-radius: 6px;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	overflow: hidden;
+	box-shadow: 0px 0px 48px 0px rgba(4, 6, 4, 0.08);
+}
+
+.top_15 {
+	margin-top: 15px;
+}
+
+.bottom_15 {
+	margin-bottom: 15px;
+}
+
+.bottom_30 {
+	margin-bottom: 30px;
 }
 
 /* ================================= 

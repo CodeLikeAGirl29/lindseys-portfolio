@@ -1,41 +1,41 @@
 /*
-	[JS Index]
+  [JS Index]
 */
 
 
 /*
-	1. preloader
-	2. show elements
-		2.1. page loaded
-		2.2. page ready
-	3. slick slider
-	4. navigation
-	5. animate elements
-	6. YouTube player
-	7. typed text
-	8. owl carousel
-	9. swiper slider
-	10. form
+  1. preloader
+  2. show elements
+    2.1. page loaded
+    2.2. page ready
+  3. slick slider
+  4. navigation
+  5. animate elements
+  6. YouTube player
+  7. typed text
+  8. owl carousel
+  9. swiper slider
+  10. form
 */
 
 
-$(function () {
+$(function() {
 	"use strict";
-
-
-	$(window).on("load", function () {
+	
+	
+	$(window).on("load", function() {
 		// 1. preloader
 		$("#preloader").fadeOut(600);
 		$(".preloader-bg").delay(400).fadeOut(600);
-
+		
 		// 2. show elements
 		// 2.1. page loaded
-		setTimeout(function () {
+		setTimeout(function() {
 			$("body").addClass("page-loaded");
 		}, 400);
 		// 2.2. page ready
 		$("body").addClass("page-ready");
-
+		
 		// 3. slick slider
 		$(".slider").slick({
 			slidesToShow: 1,
@@ -47,7 +47,7 @@ $(function () {
 			variableWidth: true,
 			infinite: false,
 			autoplay: true,
-			autoplaySpeed: 10000
+			autoplaySpeed: 8000
 		});
 		$(".home-img-container").slick({
 			arrows: false,
@@ -60,27 +60,27 @@ $(function () {
 			variableWidth: true,
 			infinite: false,
 			autoplay: true,
-			autoplaySpeed: 10000
+			autoplaySpeed: 8000
 		});
 	});
-
+	
 	// 4. navigation
-	$(".page-scroll").on("click", function (e) {
+	$(".page-scroll").on("click", function(e) {
 		var $anchor = $(this);
 		$("html, body").stop().animate({
 			scrollTop: $($anchor.attr("href")).offset().top - 0
 		}, 1500, 'easeInOutExpo');
 		e.preventDefault();
 	});
-	$(".navigation-fire, nav.navigation-menu a").on("click", function () {
+	$(".navigation-fire, nav.navigation-menu a").on("click", function() {
 		if ($("nav.navigation-menu").hasClass("show")) {
 			$("nav.navigation-menu").removeClass("show");
 		} else {
 			$("nav.navigation-menu").addClass("show");
 		}
 	});
-
-	$(window).on("scroll", function () {
+	
+	$(window).on("scroll", function() {
 		// 5. animate elements
 		if ($(this).scrollTop() > 300) {
 			$(".to-top-arrow").addClass("show");
@@ -90,10 +90,10 @@ $(function () {
 			$(".round-menu").removeClass("direction");
 		}
 	});
-
+	
 	// 6. YouTube player
 	$("#bgndVideo").YTPlayer();
-
+	
 	// 7. typed text
 	$(".typed-title").typed({
 		strings: ["Fully Responsive", "Photography Portfolio", "Made for KINGS"],
@@ -101,7 +101,7 @@ $(function () {
 		backDelay: 4500,
 		loop: true
 	});
-
+	
 	// 8. owl carousel
 	$("#owl-carousel-team").owlCarousel({
 		loop: false,
@@ -137,7 +137,7 @@ $(function () {
 			}
 		}
 	});
-	$("#owl-carousel-projects").owlCarousel({
+	$("#owl-carousel-works").owlCarousel({
 		loop: false,
 		center: false,
 		autoplay: false,
@@ -147,7 +147,7 @@ $(function () {
 		nav: false,
 		nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
-		navContainer: '.owl-nav-custom-projects',
+		navContainer: '.owl-nav-custom-works',
 		responsive: {
 			0: {
 				items: 1,
@@ -317,74 +317,74 @@ $(function () {
 			}
 		}
 	});
-
+	
 	// 9. swiper slider
-	var swiper = new Swiper(".swiper-container-wrapper .swiper-container", {
-		autoplay: {
-			delay: 4000,
-			disableOnInteraction: false
-		},
-		loop: false,
-		speed: 1200,
-		grabCursor: true,
-		mousewheel: false,
-		keyboard: true,
-		simulateTouch: true,
-		parallax: true,
-		effect: "slide",
-		pagination: {
-			el: ".swiper-slide-pagination",
-			clickable: true
-		},
-		navigation: {
-			nextEl: ".slide-next",
-			prevEl: ".slide-prev"
-		}
-	});
-	swiper.on("slideChangeTransitionStart", function () {
-		$(".slider-progress-bar").removeClass("slider-active");
-	});
-	swiper.on("slideChangeTransitionEnd", function () {
-		$(".slider-progress-bar").addClass("slider-active");
-	});
-	var playButton = $(".swiper-slide-controls-play-pause-wrapper");
-	function autoEnd() {
-		playButton.removeClass("slider-on-off");
-		swiper.autoplay.stop();
-	}
-	function autoStart() {
-		playButton.addClass("slider-on-off");
-		swiper.autoplay.start();
-	}
-	playButton.on("click", function () {
-		if (playButton.hasClass("slider-on-off")) autoEnd();
-		else autoStart();
-		return false;
-	});
-
+    var swiper = new Swiper(".swiper-container-wrapper .swiper-container", {
+        autoplay: {
+            delay: 4000,
+            disableOnInteraction: false
+        },
+        loop: false,
+        speed: 1200,
+        grabCursor: true,
+        mousewheel: false,
+        keyboard: true,
+        simulateTouch: true,
+        parallax: true,
+        effect: "slide",
+        pagination: {
+            el: ".swiper-slide-pagination",
+            clickable: true
+        },
+        navigation: {
+            nextEl: ".slide-next",
+            prevEl: ".slide-prev"
+        }
+    });
+    swiper.on("slideChangeTransitionStart", function () {
+        $(".slider-progress-bar").removeClass("slider-active");
+    });
+    swiper.on("slideChangeTransitionEnd", function () {
+        $(".slider-progress-bar").addClass("slider-active");
+    });
+    var playButton = $(".swiper-slide-controls-play-pause-wrapper");
+    function autoEnd() {
+        playButton.removeClass("slider-on-off");
+        swiper.autoplay.stop();
+    }
+    function autoStart() {
+        playButton.addClass("slider-on-off");
+        swiper.autoplay.start();
+    }
+    playButton.on("click", function () {
+        if (playButton.hasClass("slider-on-off")) autoEnd();
+        else autoStart();
+        return false;
+    });
+	
 	// 10. form
-	$("form#form").on("submit", function () {
+	$("form#form").on("submit", function() {
 		$("form#form .error").remove();
 		var s = !1;
-		if ($(".requiredField").each(function () {
-			if ("" === jQuery.trim($(this).val())) $(this).prev("label").text(), $(this).parent().append('<span class="error">This field is required</span>'), $(this).addClass("inputError"), s = !0;
-			else if ($(this).hasClass("email")) {
-				var r = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
-				r.test(jQuery.trim($(this).val())) || ($(this).prev("label").text(), $(this).parent().append('<span class="error">Invalid email address</span>'), $(this).addClass("inputError"), s = !0);
-			}
-		}), !s) {
-			$("form#form input.submit").fadeOut("normal", function () {
+		if ($(".requiredField").each(function() {
+				if ("" === jQuery.trim($(this).val())) $(this).prev("label").text(), $(this).parent().append('<span class="error">This field is required</span>'), $(this).addClass("inputError"), s = !0;
+				else if ($(this).hasClass("email")) {
+					var r = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+					r.test(jQuery.trim($(this).val())) || ($(this).prev("label").text(), $(this).parent().append('<span class="error">Invalid email address</span>'), $(this).addClass("inputError"), s = !0);
+				}
+			}), !s) {
+			$("form#form input.submit").fadeOut("normal", function() {
 				$(this).parent().append("");
 			});
 			var r = $(this).serialize();
-			$.post($(this).attr("action"), r, function () {
-				$("form#form").slideUp("fast", function () {
+			$.post($(this).attr("action"), r, function() {
+				$("form#form").slideUp("fast", function() {
 					$(this).before('<div class="success">Your email was sent successfully.</div>');
 				});
 			});
 		}
 		return !1;
 	});
-
-
+	
+	
 });
