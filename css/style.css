@@ -104,18 +104,38 @@
 
 .news-bg-1 {
 	background-image: url(../img/news/1.png);
+	transition: transform .3s;
+}
+
+.news-bg-1:hover {
+	transform: scale(1.1);
 }
 
 .news-bg-2 {
 	background-image: url(../img/news/2.png);
+	transition: transform .3s;
+}
+
+.news-bg-2:hover {
+	transform: scale(1.1);
 }
 
 .news-bg-3 {
-	background-image: url(../img/news/3.png);
+	background-image: url(../img/news/3.jpg);
+	transition: transform .3s;
+}
+
+.news-bg-3:hover {
+	transform: scale(1.1);
 }
 
 .news-bg-4 {
-	background-image: url(../img/news/4.png);
+	background-image: url(../img/news/4.jpg);
+	transition: transform .3s;
+}
+
+.news-bg-4:hover {
+	transform: scale(1.1);
 }
 
 /* ==================================
@@ -3717,7 +3737,7 @@ p.text {
 }
 
 .images-container {
-	display: grid;
+	display: flex;
   grid-template-columns: repeat(5, 1fr);
   justify-content: center;
   align-items: center;
