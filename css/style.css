@@ -121,7 +121,7 @@
 }
 
 .news-bg-3 {
-	background-image: url(../img/news/3.jpg);
+	background-image: url(../img/news/3.png);
 	transition: transform .3s;
 }
 
@@ -518,12 +518,14 @@ h2.home-page-title-all {
 	letter-spacing: -0.05em;
 	color: #5f5f5f;
 	margin: -11px 0 -2px 0;
+	text-shadow: -2px -2px 0 #fa3343, 2px -2px 0 #fa3343, -2px 2px 0 #fa3343, 2px 2px 0 #fa3343;
 }
 
 @media all and (min-width: 1920px) {
 	h2.home-page-title-all {
 		font-size: 100px;
 		margin: -11px 0 -2px 0;
+		text-shadow: -2px -2px 0 #fa3343, 2px -2px 0 #fa3343, -2px 2px 0 #fa3343, 2px 2px 0 #fa3343;
 	}
 }
 
@@ -531,6 +533,7 @@ h2.home-page-title-all {
 	h2.home-page-title-all {
 		font-size: 60px;
 		margin: -6px 0 0 0;
+		text-shadow: -2px -2px 0 #fa3343, 2px -2px 0 #fa3343, -2px 2px 0 #fa3343, 2px 2px 0 #fa3343;
 	}
 }
 
@@ -550,6 +553,10 @@ h2.section-heading {
 	margin: -4px 0;
 	padding: 0;
 	z-index: 10;
+}
+
+i.fa-heart {
+	color: #fa3343 !important;
 }
 
 @media all and (min-width: 1920px) {
@@ -2365,6 +2372,10 @@ a:hover.link-effect::after {
 	z-index: 10;
 }
 
+i.fa-heart {
+	color: #fa3343 !important;
+}
+
 @media only screen and (max-width: 995px) {
 	.copyright-home {
 		position: absolute;
@@ -3757,6 +3768,58 @@ p.text {
   justify-content: center;
   align-items: center;
   transition: 0.5s;
+}
+
+ol.blog-list {
+	color: #ccc;
+  list-style-type: none;
+}
+
+ol li {
+	position: relative;
+  font: bold italic 35px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 10px;
+}
+
+p.info {
+	font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+	margin-top: 5px;
+	align-items: center;
+}
+
+.blog-list span {
+		position: absolute;
+}
+
+.list {
+	margin: 0;
+	padding-left: 1.2rem;
+	margin-top: 20px;
+}
+
+.list li {
+	position: relative;
+  list-style-type: none;
+  padding-left: 2rem;
+  margin-bottom: 0.5rem;
+	line-height: 1.1;
+}
+
+.list li:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 5px;
+	width: 5px;
+	height: 11px;
+	border-width: 0 2px 2px 0;
+	border-style: solid;
+	border-color: #fa3343;
+	transform-origin: bottom left;
+	transform: rotate(45deg);
 }
 
 @media only screen and (max-width: 768px) {
