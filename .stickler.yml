@@ -1,8 +1,0 @@
-linters:  
-       stylelint:
-           config: 'stylelint.config.js' #The lint settings file
-files:
-    ignore:
-       - 'css/plugins.css'  #For ignoring a file/folder
-fixers:
-    enable: true   #This is the magic part of out fixing your errors
