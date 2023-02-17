@@ -112,7 +112,7 @@ $(function() {
 		autoplayTimeout: 5000,
 		smartSpeed: 450,
 		nav: false,
-		nav: true,
+		// nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
 		navContainer: '.owl-nav-custom-team',
 		responsive: {
@@ -176,7 +176,7 @@ $(function() {
 		autoplayTimeout: 5000,
 		smartSpeed: 450,
 		nav: false,
-		nav: true,
+		// nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
 		navContainer: '.owl-nav-custom-news',
 		responsive: {
@@ -205,7 +205,7 @@ $(function() {
 		autoplaySpeed: 1000,
 		autoplayTimeout: 5000,
 		smartSpeed: 450,
-		nav: false,
+		// nav: false,
 		nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
 		navContainer: '.owl-nav-custom-news-all.owl-nav-custom-news-1',
@@ -236,7 +236,7 @@ $(function() {
 		autoplayTimeout: 5000,
 		smartSpeed: 450,
 		nav: false,
-		nav: true,
+		// nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
 		navContainer: '.owl-nav-custom-news-all.owl-nav-custom-news-2',
 		responsive: {
@@ -296,7 +296,7 @@ $(function() {
 		autoplayTimeout: 5000,
 		smartSpeed: 450,
 		nav: false,
-		nav: true,
+		// nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
 		navContainer: '.owl-nav-custom-news-all.owl-nav-custom-news-4',
 		responsive: {
