@@ -1506,13 +1506,13 @@ height: auto;
 .introduction h3 {
 position: relative;
 font-family: 'Oswald', sans-serif;
-font-size: 17px;
+font-size: 1.4rem;
 font-style: normal;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: -0.04em;
 color: #e0e0e0;
-margin: -4px 0 -3px;
+margin: -4px 0 -3px 15px;
 }
 
 @media only screen and (max-width: 880px) {
@@ -1531,7 +1531,7 @@ margin: -4px 0 -3px;
 .introduction {
 position: relative;
 width: 100%;
-margin: 0 0 0 55px;
+margin: 0 0 0 75px;
 -webkit-transition: 1.2s cubic-bezier(0.67, 0.02, 0.2, 0.97) 2.3s;
    -moz-transition: 1.2s cubic-bezier(0.67, 0.02, 0.2, 0.97) 2.3s;
     -ms-transition: 1.2s cubic-bezier(0.67, 0.02, 0.2, 0.97) 2.3s;

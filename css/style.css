@@ -68,35 +68,35 @@
 ==================================== */
 
 .item-projects-01 {
-    background-image: url(../img/projects/1.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370265/1_uihbbx.png);
 }
 
 .item-projects-02 {
-    background-image: url(../img/projects/2.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370272/2_kbaeui.png);
 }
 
 .item-projects-03 {
-    background-image: url(../img/projects/3.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370246/3_s9wwkm.png);
 }
 
 .item-projects-04 {
-    background-image: url(../img/projects/4.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370247/4_f2zxhq.png);
 }
 
 .item-projects-05 {
-    background-image: url(../img/projects/5.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370246/5_p0l1am.png);
 }
 
 .item-projects-06 {
-    background-image: url(../img/projects/6.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370248/6_u48xsb.png);
 }
 
 .item-projects-07 {
-    background-image: url(../img/projects/7.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370254/7_t2q6gx.png);
 }
 
 .item-projects-08 {
-    background-image: url(../img/projects/8.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370256/8_zv179o.png);
 }
 
 /* =================================
@@ -104,7 +104,7 @@
 ************************************ */
 
 .news-bg-1 {
-    background-image: url(../img/news/1.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370811/1_fkmia7.png);
     transition: transform 0.3s;
 }
 
@@ -113,7 +113,7 @@
 }
 
 .news-bg-2 {
-    background-image: url(../img/news/2.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370811/2_vfvjnw.png);
     transition: transform 0.3s;
 }
 
@@ -122,7 +122,7 @@
 }
 
 .news-bg-3 {
-    background-image: url(../img/news/3.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370811/3_ojacaz.png);
     transition: transform 0.3s;
 }
 
@@ -131,7 +131,7 @@
 }
 
 .news-bg-4 {
-    background-image: url(../img/news/4.jpg);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370809/4_ak8ona.jpg);
     transition: transform 0.3s;
 }
 
@@ -144,26 +144,26 @@
 ************************************* */
 
 .bg-img-1 {
-    background-image: url(../img/background/hero-01.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370234/hero-01_tc6rqm.png);
 }
 
 .bg-img-2 {
-    background-image: url(../img/background/hero-02.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370237/hero-02_yoka9x.png);
 }
 
 .bg-img-3 {
-    background-image: url(../img/background/hero-03.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370238/hero-03_i5uaqu.png);
 }
 
 .bg-img-4 {
-    background-image: url(../img/background/slide-img-news.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370223/slide-img-news_s0gnlf.png);
 }
 
 /* =========================================
 /* 1.4. home multiple images IMG BACKGROUND
 ******************************************** */
 
-.home-img-top-left {
+/* .home-img-top-left {
     background-image: url(../img/background/home-img-top-left.jpg);
 }
 
@@ -185,7 +185,7 @@
 
 .home-img-bottom-right {
     background-image: url(../img/background/home-img-bottom-right.jpg);
-}
+} */
 
 /* ====================================
 =======================================
@@ -476,14 +476,14 @@ h1.home-page-title {
     text-transform: uppercase;
     letter-spacing: -0.35vw;
     line-height: 1;
-    margin: 0 0 -4px -8px;
+    margin: 0 0 -4px 35px;
     z-index: 1;
 }
 
 @media all and (min-width: 1920px) {
     h1.home-page-title {
         font-size: 165px;
-        margin: 0 0 -6px -10px;
+        margin: 0 0 -6px 20px;
     }
 }
 
@@ -491,7 +491,7 @@ h1.home-page-title {
     h1.home-page-title {
         font-size: 105px;
         color: #111;
-        margin: 0 0 -3px -6px;
+        margin: 0 0 -3px 20px;
     }
 }
 
@@ -504,7 +504,7 @@ h1.home-page-title {
 @media only screen and (max-width: 768px) {
     h1.home-page-title {
         font-size: 65px;
-        margin: 0 0 -1px -3px;
+        margin: 0 0 -1px 13px;
     }
 }
 
@@ -872,7 +872,7 @@ h3.cd-timeline-name {
     letter-spacing: -0.04em;
     color: #5f5f5f;
     line-height: 1.25;
-    margin: -6px 0 -4px;
+    margin: -6px 0 14px;
 }
 
 h4.cd-timeline-date {
@@ -884,7 +884,7 @@ h4.cd-timeline-date {
     text-align: left;
     letter-spacing: normal;
     color: #5f5f5f;
-    margin: 0 0 -12px;
+    margin: 0 0 -12px 10px;
     top: -7px;
 }
 
@@ -899,7 +899,7 @@ h4.cd-timeline-date {
     text-align: left;
     letter-spacing: -0.04em;
     color: #5f5f5f;
-    margin: 4px 0 3px;
+    margin: 4px 0 3px 10px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1694,13 +1694,13 @@ nav.navigation-menu a {
 .introduction h3 {
     position: relative;
     font-family: "Oswald", sans-serif;
-    font-size: 17px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: -0.04em;
     color: #5f5f5f;
-    margin: -4px 0 -3px;
+    margin: -4px 0 -3px 20px;
 }
 
 @media only screen and (max-width: 880px) {
@@ -2778,19 +2778,19 @@ textarea:focus:-moz-placeholder {
 }
 
 .the-button-wrapper {
-    margin: -8px 0 3px 6px;
+    margin: -8px 0 3px 26px;
 }
 
 @media all and (min-width: 1920px) {
     .the-button-wrapper {
         width: 205px;
-        margin: -5px 0 5px 6px;
+        margin: -5px 0 5px 16px;
     }
 }
 
 @media only screen and (max-width: 995px) {
     .the-button-wrapper {
-        margin: -3px 0 8px 6px;
+        margin: -3px 0 8px 16px;
     }
 }
 
