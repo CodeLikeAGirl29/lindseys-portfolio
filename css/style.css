@@ -59,6 +59,7 @@
   45. Swiper CUSTOM
   46. home multiple images
   47. divider
+  48. animations
 */
 
 /* =================================
@@ -113,7 +114,7 @@
   }
   
   .news-bg-2 {
-    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370811/2_vfvjnw.png);
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677584205/3_puybgs.png);
     transition: transform 0.3s;
   }
   
@@ -136,6 +137,15 @@
   }
   
   .news-bg-4:hover {
+    transform: scale(1.1);
+  }
+
+  .news-bg-5 {
+    background-image: url(https://res.cloudinary.com/codelikeagirl29/image/upload/v1677370231/2_kqoiwo.png);
+    transition: transform 0.3s;
+  }
+
+  .news-bg-5:hover {
     transform: scale(1.1);
   }
   
@@ -476,14 +486,14 @@
     text-transform: uppercase;
     letter-spacing: -0.35vw;
     line-height: 1;
-    margin: 0 0 -4px 35px;
+    margin: 0 0 -4px 25px;
     z-index: 1;
   }
   
   @media all and (min-width: 1920px) {
     h1.home-page-title {
       font-size: 165px;
-      margin: 0 0 -6px 20px;
+      margin: 0 0 -6px 15px;
     }
   }
   
@@ -491,7 +501,7 @@
     h1.home-page-title {
       font-size: 105px;
       color: #111;
-      margin: 0 0 -3px 20px;
+      margin: 0 0 -3px 10px;
     }
   }
   
@@ -683,7 +693,7 @@
     padding: 0;
     position: relative;
   }
-  
+
   @media only screen and (max-width: 768px) {
     ul.social-icons-home {
       font-size: 18px;
@@ -3901,13 +3911,13 @@
     line-height: 100px;
     padding: 0 0 50px;
     border-left: 5px solid #5f5f5f;
-    margin: 0;
+    margin: 0 0 0 35px;
   }
   
   @media only screen and (max-width: 768px) {
     .blog-quote {
       padding: 0 0 0 30px;
-      margin: 0;
+      margin: 0 0 0 25px;
     }
   }
   
@@ -3921,7 +3931,7 @@
     text-transform: none;
     letter-spacing: -0.02em;
     color: #5f5f5f;
-    margin: -12px 0 0;
+    margin: -12px 0 0 30px;
     top: -4px;
     width: 100%;
     line-height: 1;
@@ -3946,7 +3956,7 @@
   
   @media only screen and (max-width: 1200px) {
     .blog-quote p {
-      margin: -12px 0 0 0;
+      margin: 12px 0 0 20px;
       top: -4px;
     }
   }
@@ -3954,7 +3964,7 @@
   @media only screen and (max-width: 995px) {
     .blog-quote p {
       font-size: 40px;
-      margin: -10px 0 0 0;
+      margin: -10px 0 0 17px;
       top: -2px;
     }
   }
@@ -3962,7 +3972,7 @@
   @media only screen and (max-width: 768px) {
     .blog-quote p {
       font-size: 30px;
-      margin: -5px 0 0 0;
+      margin: -5px 0 0 7px;
     }
   }
   
@@ -5469,3 +5479,38 @@
     z-index: 2;
   }
   
+
+  /* =================================
+    48. animations
+  ==================================== */
+  /*Animate Button Hover*/
+.ink {
+	display: block;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 100%;
+	transform: scale(0);
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-o-transform: scale(0);
+}
+
+.btn_animated .circle {
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+.animate {
+	-webkit-animation: ripple 0.6s linear;
+	animation: ripple 0.6s linear;
+}
+
+@keyframes ripple {
+	100% {
+	opacity: 0;
+	transform: scale(4);
+	-webkit-transform: scale(4);
+	}
+
+}

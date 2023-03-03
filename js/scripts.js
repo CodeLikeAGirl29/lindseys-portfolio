@@ -318,6 +318,37 @@ $(function() {
 			}
 		}
 	});
+
+	$("#owl-carousel-news-5").owlCarousel({
+		loop: false,
+		center: false,
+		autoplay: false,
+		autoplaySpeed: 1000,
+		autoplayTimeout: 5000,
+		smartSpeed: 450,
+		nav: false,
+		// nav: true,
+		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
+		navContainer: '.owl-nav-custom-news-all.owl-nav-custom-news-4',
+		responsive: {
+			0: {
+				items: 1,
+				margin: 25
+			},
+			768: {
+				items: 1,
+				margin: 50
+			},
+			980: {
+				items: 1,
+				margin: 50
+			},
+			1240: {
+				items: 2,
+				margin: 50
+			}
+		}
+	});
 	
 	// 9. swiper slider
     var swiper = new Swiper(".swiper-container-wrapper .swiper-container", {
@@ -408,3 +439,27 @@ function handleScroll() {
 
 document.addEventListener("scroll", handleScroll)
 
+////////////////////////////////////////////////////
+	// Button hover effect 
+///////////////////////////////////////////////////
+
+	$('.btn_animated').on('mouseenter', '.circle', function (e) {
+		if ($(this).find(".ink").length === 0) {
+			$(this).prepend("<span class='ink'></span>");
+		}
+		var ink = $(this).find(".ink");
+		ink.removeClass("animate");
+		if (!ink.height() && !ink.width()) {
+			var d = Math.max($(this).outerWidth(), $(this).outerHeight());
+			ink.css({
+				height: d,
+				width: d
+			});
+		}
+		var x = e.pageX - $(this).offset().left - ink.width() / 2;
+		var y = e.pageY - $(this).offset().top - ink.height() / 2;
+		ink.css({
+			top: y + 'px',
+			left: x + 'px'
+		}).addClass("animate");
+	});
