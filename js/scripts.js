@@ -329,7 +329,7 @@ $(function() {
 		nav: false,
 		// nav: true,
 		navText: ["<i class='ion-chevron-left'></i>", "<i class='ion-chevron-right'></i>"],
-		navContainer: '.owl-nav-custom-news-all.owl-nav-custom-news-4',
+		navContainer: '.owl-nav-custom-news-all.owl-nav-custom-news-5',
 		responsive: {
 			0: {
 				items: 1,
