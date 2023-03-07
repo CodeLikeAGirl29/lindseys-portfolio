@@ -1,4 +1,6 @@
-﻿/*
+﻿@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+/*
   [Styling Directory]
 */
 
@@ -61,6 +63,13 @@
   47. divider
   48. animations
 */
+
+html,
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 /* =================================
 /* 1. BACKGROUND IMAGES */
@@ -2770,8 +2779,11 @@
     color: transparent;
   }
   
-  /* 25. button */
+  /* =================================
+  /* 25. buttons
+  ************************************ */
   .the-button-wrapper {
+    display: flex;
     position: relative;
     width: 175px;
     height: auto;
@@ -3048,7 +3060,7 @@
   }
   
   /* =================================
-  /* 26. button more
+  /* 26. button - more
   ************************************ */
   
   .more-wraper {
