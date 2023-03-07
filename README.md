@@ -4,7 +4,7 @@ This is my personal portfolio. Made by Lindsey. 🎉
 
 ## Screenshots
 
-![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1675111262/projects/lindseykdev_riyc98.png)
+![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1678205693/projects/lindseykdev_luhbgr.png)
 
 ## Tech Stack
 
