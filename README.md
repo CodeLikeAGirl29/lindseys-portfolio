@@ -2,6 +2,9 @@
 
 This is my personal portfolio. Made by Lindsey. 🎉
 
+> Live link can be found [here](http://lindseyk.dev)
+> or.. you can just download my [resume here](https://drive.google.com/file/d/1bHgWk-TyjNsoGOeLdqW-r5zEd-LSExM_/view?usp=share_link)
+
 ## Screenshots
 
 ![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1678205693/projects/lindseykdev_luhbgr.png)
