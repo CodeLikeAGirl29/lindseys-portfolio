@@ -350,6 +350,40 @@ $(function() {
 		}
 	});
 	
+	$("#owl-carousel-news-6").owlCarousel({
+    loop: false,
+    center: false,
+    autoplay: false,
+    autoplaySpeed: 1000,
+    autoplayTimeout: 5000,
+    smartSpeed: 450,
+    nav: false,
+    // nav: true,
+    navText: [
+      "<i class='ion-chevron-left'></i>",
+      "<i class='ion-chevron-right'></i>",
+    ],
+    navContainer: ".owl-nav-custom-news-all.owl-nav-custom-news-6",
+    responsive: {
+      0: {
+        items: 1,
+        margin: 25,
+      },
+      768: {
+        items: 1,
+        margin: 50,
+      },
+      980: {
+        items: 1,
+        margin: 50,
+      },
+      1240: {
+        items: 2,
+        margin: 50,
+      },
+    },
+  });
+	
 	// 9. swiper slider
     var swiper = new Swiper(".swiper-container-wrapper .swiper-container", {
         autoplay: {
