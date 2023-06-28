@@ -5,6 +5,8 @@ This is my personal portfolio. Made by Lindsey. 🎉
 > Live link can be found [here](http://lindseyk.dev)
 > or.. you can just download my [resume here](https://drive.google.com/file/d/1BVZxrbHCzUo37u5Fx-chgjJkh8DSLKfU/view?usp=sharing)
 
+[![CodeFactor](https://www.codefactor.io/repository/github/codelikeagirl29/my--portfolio/badge)](https://www.codefactor.io/repository/github/codelikeagirl29/my--portfolio)
+
 ## Screenshots
 
 ![App Screenshot](https://res.cloudinary.com/codelikeagirl29/image/upload/v1678205693/projects/lindseykdev_luhbgr.png)
