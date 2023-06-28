@@ -1,4 +1,4 @@
-﻿/*
+/*
   [CSS Index]
 */
 
@@ -385,20 +385,20 @@ text-align: left;
 font-weight: 700;
 letter-spacing: -0.05em;
 color: #e0e0e0;
-margin: -11px 0 -2px 0;
+margin: -11px 0 -2px;
 }
 
 @media all and (min-width: 1920px) {
   h2.home-page-title-all {
     font-size: 100px;
-	margin: -11px 0 -2px 0;
+	margin: -11px 0 -2px;
   }
 }
 
 @media only screen and (max-width: 1200px) {
   h2.home-page-title-all {
     font-size: 60px;
-	margin: -6px 0 0 0;
+	margin: -6px 0 0;
   }
 }
 
@@ -421,7 +421,7 @@ z-index: 10;
 @media all and (min-width: 1920px) {
   h2.section-heading {
     font-size: 20px;
-	margin: -5px 0 -4px 0;
+	margin: -5px 0 -4px;
   }
 }
 
@@ -592,7 +592,6 @@ position: relative;
 font-family: 'Oswald', sans-serif;
 font-size: 12px;
 font-weight: 700;
-letter-spacing: normal;
 font-style: normal;
 text-transform: uppercase;
 text-align: center;
@@ -615,11 +614,11 @@ line-height: 1;
 	-ms-transition: all 1.5s ease;
      -o-transition: all 1.5s ease;
         transition: all 1.5s ease;
-margin: 0 auto -5px auto;
+margin: 0 auto -5px;
 }
 
 .social-icons.social-icons-dark {
-margin: -4px auto -4px auto;
+margin: -4px auto;
 }
 
 .social-icons a,
@@ -681,7 +680,7 @@ color: #e0e0e0;
 /* 8. about */
 .timeline {
 position: relative;
-margin: 10px 0 0 0;
+margin: 10px 0 0;
 }
 
 h3.cd-timeline-name {
@@ -707,7 +706,7 @@ text-transform: uppercase;
 text-align: left;
 letter-spacing: normal;
 color: #5f5f5f;
-margin: 0 0 -12px 0;
+margin: 0 0 -12px;
 top: -7px;
 }
 
@@ -722,7 +721,7 @@ padding: 0;
 text-align: left;
 letter-spacing: -0.04em;
 color: #5f5f5f;
-margin: 4px 0 3px 0;
+margin: 4px 0 3px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -938,13 +937,13 @@ position: relative;
 background: none;
 width: 100%;
 height: calc(100% + 300px);
-margin: -33px 0 -53px 0;
+margin: -33px 0 -53px;
 z-index: 1;
 }
 
 @media only screen and (max-width: 768px) {
   .panel-wrapper {
-    margin: -33px 0 -50px 0;
+    margin: -33px 0 -50px;
   }
 }
 
@@ -1205,17 +1204,10 @@ margin: 0;
 padding: 0;
 border: none;
 background: none;
--webkit-transition: all .5s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
-        transition: all .5s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 -webkit-transition-property: color, -webkit-transform;
         transition-property: color, -webkit-transform;
         transition-property: transform, color;
-        transition-property: transform, color, -webkit-transform;	
--webkit-border-radius: 0;
-   -moz-border-radius: 0;
-    -ms-border-radius: 0;
-     -o-border-radius: 0;
-        border-radius: 0;
+        transition-property: transform, color, -webkit-transform;
 -webkit-border-radius: 50%;
    -moz-border-radius: 50%;
     -ms-border-radius: 50%;
@@ -1458,7 +1450,7 @@ color: #5f5f5f;
 }
 
 nav.navigation-menu li {
-margin: 0 auto 8px auto;
+margin: 0 auto 8px;
 }
 
 nav.navigation-menu li:last-child {
@@ -1697,13 +1689,13 @@ overflow-y: hidden;
 @media only screen and (max-width: 880px) {
   .left-side .container {
     width: auto;
-	padding: 25px 40px 0 40px;
+	padding: 25px 40px 0;
   }
 }
 
 @media only screen and (max-width: 768px) {
   .left-side .container {
-	padding: 25px 10px 0 10px;
+	padding: 25px 10px 0;
   }
 }
 
@@ -1883,9 +1875,6 @@ background: #fff;
 -webkit-opacity: 0;
 filter: alpha(opacity=0);
 -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
--webkit-border-radius: 3px;
-   -moz-border-radius: 3px;
-        border-radius: 3px;
 -webkit-transform: translateY(40px);
    -moz-transform: translateY(40px);
     -ms-transform: translateY(40px);
@@ -2139,7 +2128,7 @@ text-transform: uppercase;
 text-align: left;
 letter-spacing: normal;
 color: #fff;
-margin: 0 0 1px 0;
+margin: 0 0 1px;
 }
 
 .copyright,
@@ -3669,7 +3658,7 @@ text-align: left;
 letter-spacing: -0.04em;
 color: #e0e0e0;
 line-height: 1.25;
-margin: -8px 0 -5px 0;
+margin: -8px 0 -5px;
 }
 
 @media only screen and (max-width: 995px) {
@@ -4519,11 +4508,6 @@ position: relative;
     -ms-transform: scale(1) rotate(-90deg);
      -o-transform: scale(1) rotate(-90deg);
         transform: scale(1) rotate(-90deg);
--webkit-transition: transform .4s ease;
-   -moz-transition: transform .4s ease;
-    -ms-transition: transform .4s ease;
-     -o-transition: transform .4s ease;
-        transition: transform .4s ease;
 -webkit-transition: -webkit-transform .4s ease;
    -moz-transition: -moz-transform .4s ease;
     -ms-transition: -ms-transform .4s ease;
