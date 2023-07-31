@@ -1719,7 +1719,7 @@ nav.navigation-menu a {
   /* 12. introduction
   ************************************ */
 
-.introduction h3 {
+.introduction h2 {
   position: relative;
   font-family: "Oswald", sans-serif;
   font-size: 1.4rem;
@@ -1732,7 +1732,7 @@ nav.navigation-menu a {
 }
 
 @media only screen and (max-width: 880px) {
-  .introduction h3 {
+  .introduction h2 {
     color: #fff;
   }
 }
